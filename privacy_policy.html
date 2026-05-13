@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ShadowsVeil — Privacy Policy</title>
+<style>
+  :root {
+    --ink:#111;
+    --ink-soft:#2b2b2b;
+    --silver:#8a8a8f;
+    --crimson:#6e0f1a;
+    --ivory:#f3eee3;
+    --rule:#d8d4cc;
+  }
+  html,body { margin:0; padding:0; background:var(--ivory); color:var(--ink); }
+  body { font-family: Georgia, "Times New Roman", serif; line-height:1.6; font-size:17px; }
+  main { max-width:720px; margin:0 auto; padding:56px 28px 96px; }
+  header { border-bottom:1px solid var(--rule); padding-bottom:18px; margin-bottom:28px; }
+  .eyebrow {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    letter-spacing:.22em; text-transform:uppercase; color:var(--silver);
+    font-size:12px; margin:0 0 10px;
+  }
+  h1 { margin:0; font-size:36px; font-weight:700; letter-spacing:-.01em; }
+  .accent { color:var(--crimson); }
+  h2 { margin-top:40px; margin-bottom:10px; font-size:22px; font-weight:700; border-bottom:1px solid var(--rule); padding-bottom:6px; }
+  h3 { margin-top:26px; margin-bottom:6px; font-size:17px; font-weight:700; color:var(--ink-soft); }
+  p, li { color:var(--ink-soft); }
+  li { margin-bottom:6px; }
+  code { background:#eee7d9; padding:1px 6px; border-radius:3px; font-size:14px; }
+  footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--rule); color:var(--silver); font-size:13px; }
+  a { color:var(--crimson); }
+  a:hover { color:var(--ink); }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <p class="eyebrow">ShadowsVeil <span class="accent">•</span> Privacy Policy</p>
+  <h1>Privacy Policy</h1>
+  <p style="color:var(--silver); margin:8px 0 0;">Effective date: April 17, 2026</p>
+</header>
+
+<p>
+  ShadowsVeil (&quot;the app&quot;, &quot;we&quot;, &quot;us&quot;) is a wallpaper
+  gallery for Android, published by Colby Adams. This policy describes what
+  information is collected when you use ShadowsVeil, why, and what you can do
+  about it.
+</p>
+
+<p>
+  We tried to keep this short and honest. If something here is unclear, email
+  <a href="mailto:colby.quentin.adams@gmail.com">colby.quentin.adams@gmail.com</a>.
+</p>
+
+<h2>1. What we do <em>not</em> collect</h2>
+<ul>
+  <li>We do not ask you to create an account.</li>
+  <li>We do not collect your name, email, phone number, or contacts.</li>
+  <li>We do not collect your location.</li>
+  <li>We do not read, record, or upload your photos or files.</li>
+  <li>We do not sell personal information to anyone, ever.</li>
+</ul>
+
+<h2>2. What is collected, and by whom</h2>
+
+<h3>Wallpaper content (Firebase)</h3>
+<p>
+  Wallpaper images, thumbnails, titles, keywords, and metadata are stored on
+  Google Firebase (Cloud Firestore and Cloud Storage). When the app opens, it
+  requests these public records from Firebase so the gallery can populate.
+  Google may log standard request metadata (IP address, user agent, timestamp)
+  as part of operating that service. We do not attach your identity to those
+  requests.
+</p>
+
+<h3>Advertising (Google AdMob)</h3>
+<p>
+  ShadowsVeil is ad-supported. We show banner and interstitial ads through
+  Google AdMob. AdMob uses a device-level advertising identifier to serve and
+  measure ads. Depending on your region and consent choices, AdMob may collect:
+</p>
+<ul>
+  <li>A Google Advertising ID (AAID)</li>
+  <li>Coarse approximate location derived from IP</li>
+  <li>Device information (model, OS version, language)</li>
+  <li>Aggregate ad interaction data (impressions, clicks)</li>
+</ul>
+<p>
+  Google's handling of this data is governed by the
+  <a href="https://policies.google.com/technologies/ads">Google Advertising
+  Policies</a> and the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+</p>
+
+<h3>Crash and performance diagnostics (optional)</h3>
+<p>
+  If crash reporting (Firebase Crashlytics) is enabled in a future release,
+  anonymized crash traces and device context may be collected to fix bugs.
+  This is disclosed in the Play Store Data Safety section if/when enabled.
+</p>
+
+<h2>3. Your choices</h2>
+
+<h3>Reset or disable advertising ID</h3>
+<p>
+  On Android, open <strong>Settings → Privacy → Ads</strong> (or
+  <strong>Settings → Google → Ads</strong>) to reset your advertising ID or
+  opt out of personalized advertising.
+</p>
+
+<h3>Opt out of ads entirely (EEA / UK)</h3>
+<p>
+  If you are in the European Economic Area, the United Kingdom, or
+  Switzerland, the first time you open ShadowsVeil you'll see a Google-provided
+  consent form asking whether ads can use your data for personalization. You
+  can change that answer any time from the app's settings screen (if present)
+  or by clearing app data.
+</p>
+
+<h3>Children</h3>
+<p>
+  ShadowsVeil is not directed at children. We do not knowingly collect data
+  from users under 13 (or the equivalent minimum age in your region).
+</p>
+
+<h2>4. Permissions the app requests</h2>
+<ul>
+  <li>
+    <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — to download
+    wallpapers from Firebase.
+  </li>
+  <li>
+    <code>SET_WALLPAPER</code> — to apply the selected image as your home,
+    lock, or both screens when you tap Apply.
+  </li>
+  <li>
+    <code>READ_EXTERNAL_STORAGE</code> — required by the wallpaper-apply
+    library on older Android versions to stage the downloaded image before
+    handing it to the system wallpaper service. The app does not read any
+    of your personal files.
+  </li>
+</ul>
+
+<h2>5. Data retention and deletion</h2>
+<p>
+  Because ShadowsVeil does not collect personal data tied to your identity,
+  there is no user account to delete. Ad-related data is retained by Google
+  according to the Google AdMob retention policies linked above. To request
+  deletion of ad-related data associated with your device, you can reset your
+  advertising ID in Android settings.
+</p>
+<p>
+  If for any reason you would like us to investigate or remove data associated
+  with your device, email
+  <a href="mailto:colby.quentin.adams@gmail.com">colby.quentin.adams@gmail.com</a>
+  with your request. We will respond within 30 days.
+</p>
+
+<h2>6. Third parties</h2>
+<ul>
+  <li>Google Firebase (Firestore, Cloud Storage) — content delivery.</li>
+  <li>Google AdMob — advertising.</li>
+  <li>Google Play — app distribution and install analytics.</li>
+</ul>
+
+<h2>7. Changes to this policy</h2>
+<p>
+  If this policy changes, the effective date above will be updated and the
+  revised version will be published at the same URL. Material changes will be
+  noted in the next app release.
+</p>
+
+<h2>8. Contact</h2>
+<p>
+  Colby Adams<br>
+  <a href="mailto:colby.quentin.adams@gmail.com">colby.quentin.adams@gmail.com</a>
+</p>
+
+<footer>
+  ShadowsVeil • Gothic Wallpapers for Android<br>
+  Built with Flutter + Firebase.
+</footer>
+</main>
+</body>
+</html>
